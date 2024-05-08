@@ -12,7 +12,7 @@ class Amazon{
         super();
 		this.userName = userName;
 		this.passWord = passWord;
-		this.location = location;
+ 		this.location = location;
 		this.phoneNumber = phoneNumber;
 		this.paymentOption = paymentOption;
 	}
