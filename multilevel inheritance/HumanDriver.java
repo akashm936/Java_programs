@@ -39,7 +39,7 @@ class Human{
 
 }
 
-class Graduation{
+class Graduation extends Human{
 
     String course;
     int duration;
@@ -47,14 +47,14 @@ class Graduation{
     String univercity;
     int yop;
 
-    Graduation(String course,int duration,String branch,String Univercity,int yop,String name,String gender){
+    Graduation(String course,int duration,String branch,String univercity,int yop,String name,String gender){
 
     	super(name,gender);
-    	this.course= course;
-    	this.duration =duration;
+    	this.course = course;
+    	this.duration = duration;
     	this.branch = branch;
     	this.univercity = univercity;
-    	this.yop =yop;
+    	this.yop = yop;
 
 
     }
@@ -79,7 +79,7 @@ class Graduation{
 
 
 
-class PostGraduation{
+class PostGraduation extends Graduation{
 
     String spetialist;
     int durationpg;
@@ -90,14 +90,14 @@ class PostGraduation{
     PostGraduation(String spetialist,int durationpg,int yoppg,String univercitypg,String course,int duration,String branch,String univercity,int yop,String name,String gender){
 
     	super(course,duration,branch,univercity,yop,name,gender);
-    	this.spetialist =spetialist;
-    	this.durationpg =durationpg;
-    	this.yoppg=yoppg;
-    	this.univercitypg=univercitypg;
+    	this.spetialist = spetialist;
+    	this.durationpg = durationpg;
+    	this.yoppg = yoppg;
+    	this.univercitypg = univercitypg;
 
 
     }
-
+ 
     public void displayPostGraduation(){
 
     	System.out.println();
@@ -113,7 +113,7 @@ class PostGraduation{
 
 }
 
-class Job
+class Job extends PostGraduation
 {
 	String company;
     int salary;
@@ -124,9 +124,9 @@ class Job
     Job(String company,int salary,String designation,String location,String spetialist,int durationpg,int yoppg,String univercitypg,String course,int duration,String branch,String univercity,int yop,String name,String gender){
 
         super(spetialist,durationpg,yoppg,univercitypg,course,duration,branch,univercity,yop,name,gender);
-        this.company =company;
-    	this.salary =salary;
-    	this.designation =designation;
+        this.company = company;
+    	this.salary = salary;
+    	this.designation = designation;
     	this.location =location;
     }
 
@@ -150,7 +150,7 @@ class HumanDriver{
 
 	public static void main(String[] args) {
                                                                                                                                                             
-		Job obj = new Job("Tech Mahindra",9,"Sr. Software Engineer","Pune","Cyper Security",2,"Dbatu",2026,"Bechalers of technology",4,"Computer Science","DBatu",2024,"Akash","Male");
+		Job obj = new Job("Tech Mahindra",9,"Sr. Software Engineer","Pune","Cyper Security",2,2024,"Dbatu","Bechalers of technology",4,"Computer Science","DBatu",2024,"Akash","Male");
 		
 		obj.eat();
 		obj.walk();
