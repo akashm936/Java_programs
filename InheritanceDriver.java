@@ -1,5 +1,5 @@
 class Parent
-{
+
 	String str1 = "Hi from parent class ";
 	void m1(){
 	
