@@ -5,6 +5,7 @@ class Samsung
 	String c_Location;
 	String c_headcorter;
 	
+	
 
 	Samsung(String company_Name,long company_ID,String c_Location,String c_headcorter){
 
