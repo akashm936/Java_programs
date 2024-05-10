@@ -1,3 +1,8 @@
+//This is ptogram for multilevel inheritance
+
+//(10-05-2024)
+
+
 class Airport
 {
 	String company;
