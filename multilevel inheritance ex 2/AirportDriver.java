@@ -21,7 +21,8 @@ class Airport
 	}
 }
 
-class Domastic extends Airport{
+class Domastic extends Airport
+{
 
 	String type;
 	String city;
@@ -51,43 +52,48 @@ class Domastic extends Airport{
 	}
 }
 
-class International extends Airport{
-
-	String type;
-	String city;
-	String manage_by;
-	String capacity;
+class International extends Airport
+{
+	String type2;
+	String city2;
+	String manage_by2;
+	String capacity2;
      
-    International(String type, String city, String manage_by,String capacity,String type, String city, String manage_by, long capacity,String company,String managerby){
+    International(String type2, String city2, String manage_by2,String capacity2,String type, String city, String manage_by, long capacity,String company,String managerby){
 
-    	super(type,city,manage_by,capacity,company,managerby);
-    	this.type =type;
-    	this.city=city;
-    	this.manage_by = manage_by;
-    	this.capacity = capacity;
+    	super(type,city);
+    	this.type2 =type2;
+    	this.city2=city2;
+    	this.manage_by2 = manage_by2;
+    	this.capacity2 = capacity2;
     	
     }
 
-    public void displayInternational(){
+    public void displayInternational()
+    {
 
     	System.out.println();
     	System.out.println("****** International details *******");
     	System.out.println();
-    	System.out.println("type of airport : "+this.type);
-    	System.out.println("city : "+this.city);
-    	System.out.println("manage by : "+this.manage_by);
-    	System.out.println("Capacity of Airport : "+this.capacity);
+    	System.out.println("type of airport : "+this.type2);
+    	System.out.println("city : "+this.city2);
+    	System.out.println("manage by : "+this.manage_by2);
+    	System.out.println("Capacity of Airport : "+this.capacity2);
     }
 }
 
 
 class AirportDriver{
 
+	public static void main(String[] args) {
+		
 	Airport obj = new Airport("Adani airport","Adani");
 	obj.displayAirport();
-    Domastic obj1 = new Domastic("Domastic","Mumbai","Adani",1500000l,"Domastic","Mumbai","Adani","Mumbai",14000000l,"Adani","adani");
+
+    Domastic obj1 = new Domastic("Domastic","Mumbai","Adani airport",1500000l,"Adani","adani airport");
     obj1.displayDomastic();
-    International obj1 = new International("International","Mumbai","Adani",1500000l,"International","Mumbai","Adani","Mumbai",14000000l,"Adani","adani");
-    obj1.displayInternational();
+    International obj2 = new International("International","Dilhi","Adani Airport","20000000","International","Kolkatta","Adani group",1000000l,"Adani pvt","Adani airport");
+    obj2.displayInternational();
     
+	}
 }
