@@ -13,6 +13,8 @@ class Typecastingex1
 		//in type casting we write as
 		char g = (char)a;   //type casting
 
+		
+
 		System.out.println(a);
 	}
 }
