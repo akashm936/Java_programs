@@ -32,7 +32,7 @@ class DemoEx1
 		obj.greeting();
 		Parent obj1 = new Child(); // this is a UpCasting
 
-		Child obj2 = (Child)obj1;
+		Child obj2 = (Child)obj1;  // this is the dawnCasting Method
 		      obj2 = m2();
 	}
 }
