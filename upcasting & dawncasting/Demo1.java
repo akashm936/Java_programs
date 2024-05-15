@@ -24,12 +24,13 @@ class Child extends Parent
 	}
 }
 
-class Demo
+class Demo1
 {
 	public static void main(String [] args)
 	{
 		System.out.println("Hello World");
 	}
+	//remaning
 	Child obj = new Child();
 	obj.greeting();
 	//Parent obj = new Child();
