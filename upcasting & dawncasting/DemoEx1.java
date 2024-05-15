@@ -31,5 +31,8 @@ class DemoEx1
 		Child obj = new Child();
 		obj.greeting();
 		Parent obj1 = new Child(); // this is a UpCasting
+
+		Child obj2 = (Child)obj1;
+		      obj2 = m2();
 	}
 }
