@@ -18,7 +18,7 @@ class Child extends Parent
 	{
 		System.out.println("Good Morning");
 	}
-	void M2()
+	void m2()
 	{
 		System.out.println("HIE From the m2()");
 	}
@@ -48,5 +48,8 @@ class DemoEx1
 
 		Child obj2 = (Child)obj1;  // this is the dawnCasting Method
 		      obj2 = m2();
+
+		Child2 obj3 = (Child2)obj1;
+		       obj3 = m3();
 	}
 }
