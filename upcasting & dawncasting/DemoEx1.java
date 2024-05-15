@@ -1,6 +1,6 @@
 class Parent
 {
-	void greeting
+	void greeting()
 	{
 		System.out.println("Good Morning");
 	}
@@ -30,6 +30,6 @@ class DemoEx1
 		System.out.println("Hello World");
 		Child obj = new Child();
 		obj.greeting();
-		Parent obj = new Child();
+		//Parent obj1 = new Child();
 	}
 }
