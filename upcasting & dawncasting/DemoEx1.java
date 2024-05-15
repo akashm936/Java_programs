@@ -9,3 +9,16 @@ class Parent
 		System.out.println("Hello From");
 	}
 }
+
+class Child extends Parent
+{
+	void greeting()
+	{
+		System.out.println("Good Morning");
+	}
+	void M2()
+	{
+		
+	}
+
+}
