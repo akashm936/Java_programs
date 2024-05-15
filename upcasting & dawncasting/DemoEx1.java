@@ -30,6 +30,6 @@ class DemoEx1
 		System.out.println("Hello World");
 		Child obj = new Child();
 		obj.greeting();
-		//Parent obj1 = new Child();
+		Parent obj1 = new Child(); // this is a UpCasting
 	}
 }
