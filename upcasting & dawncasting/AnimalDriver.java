@@ -15,7 +15,7 @@ class AnimalDriver{
 	public static void main(String[] args) {
 		
 		Dog1 d = new Dog1();
-		System.out.println(d instanceof Animal);
+		System.out.println(d instanceof Animal);  //instanceof is created
 		d.m1();
 	}
 }
