@@ -1,3 +1,7 @@
+// this is the example of the instanceof 
+//the upcasting and dawncasting
+//
+
 import java.util.*;
 class Payment
 {
