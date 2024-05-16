@@ -1,7 +1,9 @@
 //this is the example of dawncasting
 
 class Animal
-{}
+{
+	
+}
 
 class Cat extends Animal
 {
