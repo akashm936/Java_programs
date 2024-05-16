@@ -7,7 +7,7 @@ class Payment
 {
 	public void findPayment(Payment obj)
 	{
-		if(obj instanceof GooglePay)
+		if(obj instanceof GooglePay)  //used instanceof keyword
 		{
 			GooglePay obj1 = (GooglePay)obj;
 			System.out.println(obj1.str);
