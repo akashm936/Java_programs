@@ -13,16 +13,13 @@ class CharTOInt
         int count = 0;
 
 		for(char i='A';i<='Z';i++)
-		{
+		{ 
 			int op=num++;
    		    if(al==i)
 		    {
 		    	System.out.println(al + " = " + op);
-		    }
-		    // else if(al==i+i)
-		    // {
-		    // 	System.out.println(al+al + " = " + op++);
-		    // }	
+		    }	
+		    
 		}
 
 	}
