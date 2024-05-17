@@ -8,9 +8,9 @@ class CharTOInt
 		Scanner sc = new Scanner(System.in);
 
 		System.out.print("Enter Alphabet : ");
-		String al = sc.next();
+		char al = sc.next().charAt(0);
 
-		if(al.equals("A"))
+		if(al=='A')
 		{
 			System.out.println("al "+ 1);
 		}
