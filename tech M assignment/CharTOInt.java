@@ -10,14 +10,19 @@ class CharTOInt
 		System.out.print("Enter Alphabet : ");
 		char al = sc.next().charAt(0);
         int num = 1;
+        int count = 0;
 
 		for(char i='A';i<='Z';i++)
 		{
 			int op=num++;
    		    if(al==i)
 		    {
-		    	System.out.println(al + "=" + op);
-		    }	
+		    	System.out.println(al + " = " + op);
+		    }
+		    // else if(al==i+i)
+		    // {
+		    // 	System.out.println(al+al + " = " + op++);
+		    // }	
 		}
 
 	}
