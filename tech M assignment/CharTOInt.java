@@ -7,12 +7,12 @@ class CharTOInt
 		
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Enter Alphabet : ");
+		System.out.print("Enter Alphabet : ");
 		String al = sc.next();
 
 		if(al.equals("A"))
 		{
-			System.out.println(al = 1);
+			System.out.println("al "+ 1);
 		}
 
 	}
