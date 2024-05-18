@@ -1,8 +1,8 @@
-class Parent
+abstract class Parent
 {
-	abstract void m1();
+	void m1();
 	
-	abstract  void m2();
+	void m2();
 	
 	public void m3(){
 		System.out.println("hello from parent m3()");
@@ -11,8 +11,7 @@ class Parent
 }
 
 class Child1 extends Parent
-{
-	public void m2()
+{	public void m2()
 	{
 		System.out.println("hello from child m4()");
 	}
