@@ -24,6 +24,7 @@ class CharTOInt
 		//     }
 		// }
 
+         //this is the logic for the AA= 27 etc
 		System.out.print("Enter a Character : ");
 		String str = sc.next().toUpperCase();
 		int op = 0;
