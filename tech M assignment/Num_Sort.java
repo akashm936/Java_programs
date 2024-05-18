@@ -1,3 +1,4 @@
+//run false
 class Num_Sort
 {
 	public static void main()
