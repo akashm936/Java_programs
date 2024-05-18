@@ -1,3 +1,4 @@
+//run True
 import java.util.*;
 class IntervalProgramEx1
 {

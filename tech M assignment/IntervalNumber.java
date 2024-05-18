@@ -1,3 +1,4 @@
+// Run True
 import java.util.Scanner;
 
 public class IntervalNumber {
