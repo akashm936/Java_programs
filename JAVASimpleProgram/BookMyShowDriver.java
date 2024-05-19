@@ -1,3 +1,5 @@
+import java.util.*;
+
 class BookMyShow{
 	
 	private String movie_name;
@@ -57,9 +59,23 @@ class BookMyShow{
 
 class BookMyShowDriver{
 	
+	public static void getinputfromuser(){
+        Scanner sc = new Scanner(System.in);
+		System.out.println();
+		System.out.println("******** Book My Show *********");
+		System.out.println();
+		System.out.println("Enter a Movie Name");
+		 new_movie_name = sc.nextLine();
+
+	}
+
 	public static void main(String[] args) {
+
+		
+
+
         
-		BookMyShow obj = new BookMyShow("Shrikant",200,"Rahul70","Pune",3.30);
+		BookMyShow obj = new BookMyShow(new_movie_name,200,"Rahul70","Pune",3.30);
 		System.out.println("Movie Name : " +obj.getmovie_name());
 		System.out.println("Ticket price : " +obj.getticket_price());
 
