@@ -25,7 +25,8 @@ class BookMyShow{
 
 	public void setmovie_name(String new_movie_name)
 	{
-		movie_name = new_movie_name;
+		Scanner sc = new Scanner(System.in);
+		this.movie_name = sc.new_movie_name;
 	}
 
 	public int getticket_price()
@@ -35,7 +36,7 @@ class BookMyShow{
 
 	public void setticket_price(int new_ticket_price)
 	{
-		ticket_price = new_ticket_price;
+		this.ticket_price = new_ticket_price;
 	}
 	public double getshowtime()
 	{
@@ -44,7 +45,7 @@ class BookMyShow{
 
 	public void setshowtime(double newshowtime)
 	{
-		showtime = newshowtime;
+		this.showtime = newshowtime;
 	}
 
 	public void displayBookMyShow(){
@@ -65,12 +66,13 @@ class BookMyShowDriver{
 		System.out.println("******** Book My Show *********");
 		System.out.println();
 		System.out.println("Enter a Movie Name");
-		 new_movie_name = sc.nextLine();
+		 
 
 	}
 
 	public static void main(String[] args) {
         
+        Scanner sc = new Scanner(System.in);
 		BookMyShow obj = new BookMyShow(new_movie_name,200,"Rahul70","Pune",3.30);
 		System.out.println("Movie Name : " +obj.getmovie_name());
 		System.out.println("Ticket price : " +obj.getticket_price());
