@@ -55,6 +55,10 @@ class BankDriver
         System.out.println("Bank name is : "+obj.getname());
         System.out.println("user password : "+obj.getpassword());
         System.out.println("Branch City : "+ obj.branch);
+        System.out.println("Account No : "+ obj.acc_no);
+        System.out.println("IFSC code : "+ obj.ifsc_code);
+
+
 
      }
 
