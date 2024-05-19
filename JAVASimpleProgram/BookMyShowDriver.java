@@ -70,10 +70,6 @@ class BookMyShowDriver{
 	}
 
 	public static void main(String[] args) {
-
-		
-
-
         
 		BookMyShow obj = new BookMyShow(new_movie_name,200,"Rahul70","Pune",3.30);
 		System.out.println("Movie Name : " +obj.getmovie_name());
