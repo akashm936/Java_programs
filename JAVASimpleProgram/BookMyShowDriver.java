@@ -27,11 +27,13 @@ class BookMyShow{
 	{
 		Scanner sc = new Scanner(System.in);
 		this.movie_name = sc.new_movie_name;
+	
 	}
 
 	public int getticket_price()
 	{
 		return ticket_price;
+
 	}
 
 	public void setticket_price(int new_ticket_price)
