@@ -58,7 +58,7 @@ class BookMyShow{
 class BookMyShowDriver{
 	
 	public static void main(String[] args) {
-
+        
 		BookMyShow obj = new BookMyShow("Shrikant",200,"Rahul70","Pune",3.30);
 		System.out.println("Movie Name : " +obj.getmovie_name());
 		System.out.println("Ticket price : " +obj.getticket_price());
