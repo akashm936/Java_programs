@@ -5,7 +5,7 @@ abstract class RBI
 	}
 	abstract void rateofInterest();
 	abstract void withdrowLimit();
-	abstract void DepositeLimit();
+	abstract void deposite();
 }
 
 abstract class SBI extends RBI{
@@ -15,7 +15,7 @@ abstract class SBI extends RBI{
 
 	SBI(String user_name,String account_type)
 	{
-		super(user_name,account_type);
+		super();
 
 		this.user_name = user_name;
 		this.account_type = account_type;
@@ -29,6 +29,10 @@ abstract class SBI extends RBI{
 
 class Saving extends SBI{
 
+	Saving(String user_name,String account_type){
+		super(user_name,account_type);
+	}
+
 	void rateofInterest(){
 		System.out.println("Rate of interest is : " + 8.5 + "%");
 		
@@ -36,13 +40,18 @@ class Saving extends SBI{
 	void withdrowLimit(){
 		System.out.println("withdrowLimit : "+ 50000 + "rs");
 	}
-	void DepositeLimit(){
-		System.out.println("DepositeLimit : " + 100000 + "rs");
+	void deposite(){
+		System.out.println("deposite : " + 100000 + "rs");
 	}
 
 }
 
 class Current extends SBI{
+
+	Current(String user_name,String account_type)
+	{
+		super(user_name,account_type);
+	}
 
 	void rateofInterest(){
 		System.out.println("Rate of interest is : " + 7.5 + "%");
@@ -50,23 +59,28 @@ class Current extends SBI{
 	void withdrowLimit(){
 		System.out.println("withdrowLimit : "+ 500000 + "rs");
 	}
-	void DepositeLimit(){
-		System.out.println("DepositeLimit : " + 1000000 + "rs");
+	void deposite(){
+		System.out.println("deposite : " + 1000000 + "rs");
 	}
 }
 
 
 class RBIDriver{
-
+    
+    public static void main(String[] args) {
+    	
+    System.out.println();
 	Saving obj1 = new Saving("Ramesh","Saving");
 	obj1.rateofInterest();
 	obj1.displayDetails();
-	obj1.DepositeLimit();
+	obj1.deposite();
 	obj1.withdrowLimit();
 
+    System.out.println();
 	Current obj2 = new Current("Suresh","Current");
 	obj2.rateofInterest();
 	obj2.displayDetails();
-	obj2.DepositeLimit();
+	obj2.deposite();
 	obj2.withdrowLimit();
+    }
 }
