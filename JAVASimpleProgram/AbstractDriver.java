@@ -1,9 +1,10 @@
+// run Status true //but its an example
 abstract class Parent
 {
 	public abstract void name(){
 
 	}
-	private abstract void surname(){
+	private abstract void surname(){ ///illegal combination of private and abstract keyword 
 
 	}
 }
