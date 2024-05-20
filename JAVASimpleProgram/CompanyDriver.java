@@ -86,6 +86,4 @@ class CompanyDriver
 	obj2.companyLocation();
 	obj2.noofEmpolyee();
 	}
-
-
 }
