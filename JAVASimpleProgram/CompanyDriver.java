@@ -1,33 +1,39 @@
 abstract class Company
 {
-   public abstract void companyName();
-   public abstract void companyLocation();
-   public abstract void noofEmpolyee();
-
-   Company()
+	Company()
    {
    	super();
    } 	
-
+   abstract void companyName();
+   abstract void companyLocation();
+   abstract void noofEmpolyee();
 }
 
-abstract class Pepsi extends Company
+abstract class Company1 extends Company
 {
 	String productName;
 	String typeofProduct;
+	Company1(String productName,String typeofProduct)
+	{
+		super();
+		this.productName=productName;
+		this.typeofProduct=typeofProduct;
+	}
+	void displayCompany1()
+	{
+		System.out.println("Product Name :  "+this.productName);
+		System.out.println("Type Of Product : "+this.typeofProduct);
+	}
+}
 
+class Pepsi extends Company1
+{
+	
 	Pepsi(String productName,String typeofProduct)
 	{
 		super(productName,typeofProduct);
-		this.productName = productName;
-		this.typeofProduct = typeofProduct;
 	}
-
-	// void displayPepsiDetails(){
-
-	// 	System.out.println("product Name : " + productName);
-	// 	System.out.println("Type of product : " + typeofProduct);
-	// }
+		
 	void companyName(){
 		System.out.println("Company Name: "+ "Pepsi");
 	}
@@ -40,23 +46,13 @@ abstract class Pepsi extends Company
 
 }
 
-class CocaCola extends Company{
+class CocaCola extends Company1{
 
-	String productName;
-	String typeofProduct;
 
-	Pepsi(String productName,String typeofProduct)
+	CocaCola(String productName,String typeofProduct)
 	{
 		super(productName,typeofProduct);
-		this.productName = productName;
-		this.typeofProduct = typeofProduct;
 	}
-
-	// void displayPepsiDetails(){
-
-	// 	System.out.println("product Name : " + productName);
-	// 	System.out.println("Type of product : " + typeofProduct);
-	// }
 
 	void companyName(){
 		System.out.println("Company Name: "+ "CocaCola");
@@ -70,12 +66,24 @@ class CocaCola extends Company{
 } 
 class CompanyDriver
 {
+	public static void main(String[] args) {
+		
+
 	Pepsi obj1 = new Pepsi("Pepsi","ColdDrink");
+	System.out.println("*** product 1 ***");
+	obj1.displayCompany1();
 	obj1.companyName();
-	obj1.productName();
 	obj1.companyLocation();
 	obj1.noofEmpolyee();
-	obj1.typeofProduct();
-
 	
+	System.out.println();
+	CocaCola obj2 = new CocaCola("CocaCola","ColdDrink");
+	System.out.println("*** product 2 ***");
+	obj2.displayCompany1();
+	obj2.companyName();
+	obj2.companyLocation();
+	obj2.noofEmpolyee();
+	}
+
+
 }
