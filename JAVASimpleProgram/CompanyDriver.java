@@ -1,3 +1,5 @@
+// Run Status : true (by Gaurav And Akash)
+
 abstract class Company
 {
 	Company()
@@ -75,7 +77,7 @@ class CompanyDriver
 	obj1.companyName();
 	obj1.companyLocation();
 	obj1.noofEmpolyee();
-	
+
 	System.out.println();
 	CocaCola obj2 = new CocaCola("CocaCola","ColdDrink");
 	System.out.println("*** product 2 ***");
