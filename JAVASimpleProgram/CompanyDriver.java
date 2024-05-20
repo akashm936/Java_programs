@@ -31,6 +31,12 @@ abstract class Pepsi extends Company
 	void companyName(){
 		System.out.println("Company Name: "+ "Pepsi");
 	}
+	void companyLocation(){
+		System.out.println("Company Location : " +"USA");
+	}
+	void noofEmpolyee(){
+		System.out.println("Empolyee Work in : " +5000 );
+	}
 
 }
 
@@ -46,13 +52,30 @@ class CocaCola extends Company{
 		this.typeofProduct = typeofProduct;
 	}
 
-	void displayPepsiDetails(){
+	// void displayPepsiDetails(){
 
-		System.out.println("product Name : " + productName);
-		System.out.println("Type of product : " + typeofProduct);
+	// 	System.out.println("product Name : " + productName);
+	// 	System.out.println("Type of product : " + typeofProduct);
+	// }
+
+	void companyName(){
+		System.out.println("Company Name: "+ "CocaCola");
+	}
+	void companyLocation(){
+		System.out.println("Company Location : " +"America");
+	}
+	void noofEmpolyee(){
+		System.out.println("Empolyee Work in : " +3000 );
 	}
 } 
 class CompanyDriver
 {
-	Pepsi obj1 = new Pepsi("")
+	Pepsi obj1 = new Pepsi("Pepsi","ColdDrink");
+	obj1.companyName();
+	obj1.productName();
+	obj1.companyLocation();
+	obj1.noofEmpolyee();
+	obj1.typeofProduct();
+
+	
 }
