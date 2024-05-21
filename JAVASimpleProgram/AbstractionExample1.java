@@ -1,3 +1,5 @@
+//Run Status : true
+
 class Student
 {
 	String str1 = "Hello Akash";
