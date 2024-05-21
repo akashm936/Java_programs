@@ -5,10 +5,10 @@ class Student
 	{
 		super();
 	}
-	void Akash(){
+	void akash(){
 		System.out.println("Hello I Am Akash");
 	}
-	void Gaurav(){
+	void gaurav(){
 		System.out.println("Hello I am Gaurav");
 	}
 }
@@ -22,4 +22,13 @@ class Qspider extends Student
 		super();
 		System.out.println("This is Qspider Constructor");
 	}
+
+	void displayQspider(){
+
+		System.out.println("********* Qspider Student *******");
+		super.akash();
+		super.gaurav();
+	}
 }
+
+class AbstractionExample1
