@@ -3,7 +3,7 @@
 class Student
 {
 	String str1 = "Hello Akash";
-	Parent()
+	Student()
 	{
 		super();
 	}
