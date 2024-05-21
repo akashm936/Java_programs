@@ -32,3 +32,10 @@ class Qspider extends Student
 }
 
 class AbstractionExample1
+{
+	public static void main(String[] args) {
+		
+		Qspider obj = new Qspider();
+		obj.displayQspider();
+	}
+}
