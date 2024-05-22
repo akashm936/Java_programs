@@ -33,10 +33,22 @@ class Student extends Collge
 	String stud_address;
 	int con_no;
 
-	Student{
-		super();
+	Student(String collge_Name, String address, String collge_Type, String principle_name){
+		super(collge_Name,address,collge_Type,principle_name);
 		this.roll_no =roll_no;
-		this
+		this.student_Name=student_Name;
+		this.stud_address = stud_address;
+		this.con_no = con_no;
+	}
+
+	void displayStudent(){
+
+		System.out.println("******** Student Details ************");
+		System.out.println();
+		System.out.println("Roll No : "+roll_no);
+		System.out.println("Student Name : "+student_Name);
+		System.out.println("Student Address : "+stud_address);
+		System.out.println("Student Contact No : "+con_no);
 	}
 
 
