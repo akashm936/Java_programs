@@ -43,9 +43,9 @@ class Student extends Collge
 		this.con_no = con_no;
 	}
 
-	Student(String collge_Name, String address, String collge_Type, String principle_name,int roll_no, String student_Name,String stud_address,long con_no)
+	Student(String collge_Name, String address, String collge_Type)
 	{
-		super(collge_Name,address,collge_Type,principle_name,roll_no,student_Name,stud_address,con_no);
+		super(collge_Name,address,collge_Type);
 		this.roll_no = roll_no;
 		this.student_Name = student_Name;
 		this.stud_address = stud_address;
