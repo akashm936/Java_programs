@@ -43,9 +43,9 @@ class Student extends Collge
 		this.con_no = con_no;
 	}
 
-	Student(/*String collge_Name, String address, String collge_Type,String principle_name*/)
+	Student(String collge_Name, String address, String collge_Type)
 	{
-		// super(collge_Name,address,collge_Type,principle_name);
+		super(collge_Name,address,collge_Type);
 		this.roll_no = roll_no;
 		this.student_Name = student_Name;
 		this.stud_address = stud_address;
@@ -70,7 +70,7 @@ class CollegeDriver{
 	public static void main(String[] args) {
 	
 
-	Student obj = new Student("MSS-CET","JALNA","ENGINEERING","SK. Biradar");
+	Student obj = new Student("MSS-CET","JALNA","ENGINEERING");
 
     obj.displayCollege();
     obj.displayStudent();
