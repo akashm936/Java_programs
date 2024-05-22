@@ -41,18 +41,19 @@ class Student extends Collge
 		this.student_Name=student_Name;
 		this.stud_address = stud_address;
 		this.con_no = con_no;
+		System.out.println(" Student Constructor ");
 	}
 
-	Student(String collge_Name, String address, String collge_Type)
-	{
-		super(collge_Name,address,collge_Type);
-		this.roll_no = roll_no;
-		this.student_Name = student_Name;
-		this.stud_address = stud_address;
-		this.con_no = con_no;
+	// Student(String collge_Name, String address, String collge_Type)
+	// {
+	// 	super(collge_Name,address,collge_Type);
+	// 	this.roll_no = roll_no;
+	// 	this.student_Name = student_Name;
+	// 	this.stud_address = stud_address;
+	// 	this.con_no = con_no;
 
-		System.out.println(" Student Constructor is overload");
-	}
+	// 	
+	// }
 
 	void displayStudent(){
 
@@ -70,7 +71,7 @@ class CollegeDriver{
 	public static void main(String[] args) {
 	
 
-	Student obj = new Student("MSS-CET","JALNA","ENGINEERING");
+	Student obj = new Student("MSS-CET","JALNA","ENGINEERING","SK. Biradar");
 
     obj.displayCollege();
     obj.displayStudent();
