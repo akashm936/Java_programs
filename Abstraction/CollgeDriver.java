@@ -50,13 +50,16 @@ class Student extends Collge
 		System.out.println("Student Address : "+stud_address);
 		System.out.println("Student Contact No : "+con_no);
 	}
-
-
 }
 
 class CollegeDriver{
 
 	public static void main(String[] args) {
-		
+	
+
+	Student obj = new Student("MSS-CET","JALNA","ENGINEERING","SK. Biradar",011,"AKASH","OLD JALNA",8956453550);
+    obj.displayCollege();
+    obj.displayStudent();
+
 	}
 }
