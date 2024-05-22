@@ -31,7 +31,7 @@ class Student extends Collge
 	int roll_no;
 	String student_Name;
 	String stud_address;
-	int con_no;
+	long con_no;
 
 	Student(String collge_Name, String address, String collge_Type, String principle_name){
 		super(collge_Name,address,collge_Type,principle_name);
@@ -57,7 +57,7 @@ class CollegeDriver{
 	public static void main(String[] args) {
 	
 
-	Student obj = new Student("MSS-CET","JALNA","ENGINEERING","SK. Biradar",011,"AKASH","OLD JALNA",8956453550);
+	Student obj = new Student("MSS-CET","JALNA","ENGINEERING","SK. Biradar");
     obj.displayCollege();
     obj.displayStudent();
 
