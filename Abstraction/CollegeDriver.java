@@ -1,3 +1,5 @@
+// Run Status : True
+
 class Collge {
 	
 	String collge_Name;
@@ -58,6 +60,7 @@ class CollegeDriver{
 	
 
 	Student obj = new Student("MSS-CET","JALNA","ENGINEERING","SK. Biradar");
+
     obj.displayCollege();
     obj.displayStudent();
 
