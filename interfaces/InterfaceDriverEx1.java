@@ -1,3 +1,8 @@
+// Run Status : True
+
+
+// this is the program of the multiple inheritance that allowed in in the interface
+// multiple Inheritance
 interface Parent1
 {
 	void m1();
@@ -30,6 +35,8 @@ class InterfaceDriverEx1{
 		
 		Driver obj = new Driver();
 		obj.m1();
+		obj.m2();
+		obj.m3();
 
 		
 	}
