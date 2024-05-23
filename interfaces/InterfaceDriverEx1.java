@@ -11,7 +11,7 @@ interface Parent2
 {
 	void m2();
 }
-interface Child extends Parent1,Parent2
+interface Child extends Parent1,Parent2  //extend keyword can extends 2 parent class only in the interface 
 {
 
 	void m3();
