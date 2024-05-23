@@ -5,7 +5,7 @@ interface Parent1
 interface Parent2
 {
 	void m2();
-
+}
 interface Child extends Parent1,Parent2
 {
 
@@ -28,7 +28,9 @@ class InterfaceDriverEx1{
 
 	public static void main(String[] args) {
 		
-		Driver.m1();
+		Driver obj = new Driver();
+		obj.m1();
+
 		
 	}
 }

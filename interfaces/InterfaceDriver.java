@@ -1,3 +1,7 @@
+// Run status : True
+
+
+//this is the interface
 interface Arithmatic
 {
 	 
@@ -25,5 +29,6 @@ class InterfaceDriver{
 		
 		Child obj = new Child();
 		System.out.println("Addition of 10,30 : "+obj.add(10,30));
+	     System.out.println("Multiplication of 10,30 : "+obj.multi(10,30));
 	}
 }
