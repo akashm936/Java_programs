@@ -29,5 +29,6 @@ class InterfaceDriverEx1{
 	public static void main(String[] args) {
 		
 		Driver.m1();
+		
 	}
 }
