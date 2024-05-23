@@ -1,17 +1,18 @@
-abstract class Arithmatic {
+interface Arithmatic
+{
 	 
-	 abstract int add(int a,int b);
-	 abstract int multi(int a, int b);
+	  int add(int a,int b);
+	  int multi(int a, int b);
      
 }
-class Child extends Arithmatic{
+class Child implements Arithmatic{
         
 
      public int add(int a, int b)
      {
      	return a+b;
      }
-     public int mul(int a,int b)
+     public int multi(int a,int b)
      {
      	return a*b;
      }
@@ -22,7 +23,7 @@ class InterfaceDriver{
 
 	public static void main(String[] args) {
 		
-		// Child obj = new Child();
-		System.out.println(Child.add(10,30));
+		Child obj = new Child();
+		System.out.println("Addition of 10,30 : "+obj.add(10,30));
 	}
 }
