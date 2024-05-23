@@ -7,7 +7,7 @@ class Type_conversion
 {
 	public static void main(String[] args) {
 		
-		char a=10;`
+		char a=10;
 		byte x=a;
 		short b=a;
 		int c=a;

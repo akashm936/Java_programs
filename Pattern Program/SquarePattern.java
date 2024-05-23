@@ -1,4 +1,4 @@
-//Run Status : True
+//Run Status : True*
 
 class SquarePattern
 {
