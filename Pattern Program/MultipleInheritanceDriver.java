@@ -1,3 +1,5 @@
+// run Status : true
+
 interface Parent1{
 	
 	default void greeting(){
