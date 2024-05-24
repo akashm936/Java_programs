@@ -1,3 +1,5 @@
+// run status : true
+
 abstract class Parent1
 {
 	
