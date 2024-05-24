@@ -1,3 +1,4 @@
+// run status : true
 class NoPattern
 {
 
