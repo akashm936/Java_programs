@@ -13,7 +13,8 @@ class MobileBox
 		this.charger = charger;
 	}
 	@Override
-	public void finalize()
+	public void finalize()    //we dont need to call finalize method 
+	// the System.gc() class call automatically to finalize method when they find un used mememry
 	{
 		System.out.println("Object Distroed Successfully..");
 	}
@@ -25,8 +26,8 @@ class GarbageCollection
 		
 		MobileBox obj = new MobileBox("Yes","Yes","Yes");
 		System.out.println(obj);
-		obj=null;
-		System.gc();
+		obj=null;   //for delete all the value
+		System.gc();  //this is for garbage collection 
 		System.out.println(obj.siminjector);
 	}
 }
