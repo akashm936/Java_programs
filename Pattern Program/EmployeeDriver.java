@@ -15,7 +15,7 @@ class Employee
 		this.add = add;
 	}
 	@Override
-	public void finalize(){
+	protected void finalize(){
 		System.out.println("object Destroid successfully");
 	}
 }
@@ -24,10 +24,11 @@ class EmployeeDriver
 {
 	public static void main(String[] args) {
 		
-		final Employee obj = new Employee("E001","Akash",767346374l,"Jalna");
+		Employee obj = new Employee("E001","Akash",767346374l,"Jalna");
 		System.out.println(obj);
-		obj.finalize();
-		//System.gc();
+		//obj.finalize();
+		obj=null;
+		System.gc();
 		System.out.println(obj.name);
 
 
