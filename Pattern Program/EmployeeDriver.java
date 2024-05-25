@@ -16,7 +16,9 @@ class Employee
 	}
 	@Override
 	protected void finalize(){
-		System.out.println("object Destroid successfully");
+		System.out.println();
+		System.out.println("************ Object Destroid successfully ****************");
+		System.out.println();
 	}
 }
 
