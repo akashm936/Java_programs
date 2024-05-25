@@ -25,6 +25,7 @@ class GarbageCollection
 		
 		MobileBox obj = new MobileBox("Yes","Yes","Yes");
 		System.out.println(obj);
+		obj=null;
 		System.gc();
 		System.out.println(obj.siminjector);
 	}
