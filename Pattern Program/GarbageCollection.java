@@ -12,6 +12,11 @@ class MobileBox
 		this.cover = cover;
 		this.charger = charger;
 	}
+	@Override
+	public void finalize()
+	{
+		System.out.println("Object Distroed Successfully..");
+	}
 }
 
 class GarbageCollection
@@ -20,5 +25,7 @@ class GarbageCollection
 		
 		MobileBox obj = new MobileBox("Yes","Yes","Yes");
 		System.out.println(obj);
+		System.gc();
+		System.out.println(obj.siminjector);
 	}
 }
