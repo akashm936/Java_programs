@@ -20,13 +20,14 @@ class Employee
 	}
 }
 
-class EmpolyeeDriver
+class EmployeeDriver
 {
 	public static void main(String[] args) {
 		
-		Employee obj = new Employee("E001","Akash",767346374l,"Jalna");
+		final Employee obj = new Employee("E001","Akash",767346374l,"Jalna");
 		System.out.println(obj);
 		obj.finalize();
+		//System.gc();
 		System.out.println(obj.name);
 
 
