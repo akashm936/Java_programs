@@ -14,4 +14,11 @@ class MobileBox
 	}
 }
 
-class MobileDriver
+class GarbageCollection
+{
+	public static void main(String[] args) {
+		
+		MobileBox obj = new MobileBox("Yes","Yes","Yes");
+		System.out.println(obj);
+	}
+}
