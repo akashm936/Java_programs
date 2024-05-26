@@ -1,5 +1,8 @@
 // Run Status : True
 
+//this is the program is used for finding the month 
+//using the if else if ladder 
+
 import java.util.*;
 import java.io.*;
 
