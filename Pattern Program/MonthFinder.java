@@ -44,22 +44,22 @@ class MonthFinder
 	    }
 	     else if(month == 9)
 	    {
-	    	System.out.println(month + " September");
+	    	System.out.println(month + " = September");
 	    }
 	     else if(month == 10)
 	    {
-	    	System.out.println(month + " Octomber");
+	    	System.out.println(month + " = Octomber");
 	    }
 	     else if(month == 11)
 	    {
-	    	System.out.println(month + " November");
+	    	System.out.println(month + "  = November");
 	    }
 	     else if(month == 12)
 	    {
-	    	System.out.println(month + " December");
+	    	System.out.println(month + " = December");
 	    }
 	    else {
-	    	System.out.println("Invalid Number ");
+	    	System.out.println("Invalid Month ");
 	    }
 	}
 }
