@@ -6,6 +6,7 @@ class SwapNumber
 		int b = 30;
 		int c;
 
+        System.out.println("Initial value \na = 15 \nb = 30 ");
         c=a;
         a=b;
         b=c;
