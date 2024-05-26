@@ -16,37 +16,37 @@ class MonthFinder
 	    }
 	    else if(month == 2)
 	    {
-	    	System.out.println(month + " Febawary");
+	    	System.out.println(month + " = Febawary");
 	    }
-	     else if(month == 2)
+	     else if(month == 3)
 	    {
-	    	System.out.println(month + " Febawary");
+	    	System.out.println(month + " = March");
 	    }
-	     else if(month == 2)
+	     else if(month == 4)
 	    {
-	    	System.out.println(month + " Febawary");
+	    	System.out.println(month + " = April");
 	    }
-	     else if(month == 2)
+	     else if(month == 5)
 	    {
-	    	System.out.println(month + " Febawary");
+	    	System.out.println(month + " = May");
 	    }
-	     else if(month == 2)
+	     else if(month == 6)
 	    {
-	    	System.out.println(month + " Febawary");
+	    	System.out.println(month + " = June");
 	    }
-	     else if(month == 2)
+	     else if(month == 7)
 	    {
-	    	System.out.println(month + " Febawary");
+	    	System.out.println(month + " = July");
 	    }
-	     else if(month == 2)
+	     else if(month == 8)
 	    {
-	    	System.out.println(month + " Febawary");
+	    	System.out.println(month + " = Agust");
 	    }
-	     else if(month == 2)
+	     else if(month == 9)
 	    {
 	    	System.out.println(month + " September");
 	    }
-	     else if(month == 2)
+	     else if(month == 10)
 	    {
 	    	System.out.println(month + " Octomber");
 	    }
@@ -57,6 +57,9 @@ class MonthFinder
 	     else if(month == 12)
 	    {
 	    	System.out.println(month + " December");
+	    }
+	    else {
+	    	System.out.println("Invalid Number ");
 	    }
 	}
 }
