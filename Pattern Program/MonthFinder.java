@@ -1,3 +1,5 @@
+// Run Status : True
+
 import java.util.*;
 import java.io.*;
 
@@ -12,11 +14,11 @@ class MonthFinder
 	    int month = sc.nextInt();
 
 	    if(month == 1){
-	    	System.out.println(month + " = Janewary");
+	    	System.out.println(month + " = Janwary");
 	    }
 	    else if(month == 2)
 	    {
-	    	System.out.println(month + " = Febawary");
+	    	System.out.println(month + " = Febwary");
 	    }
 	     else if(month == 3)
 	    {
