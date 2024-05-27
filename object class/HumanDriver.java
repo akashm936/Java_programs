@@ -1,3 +1,6 @@
+// run Status : True
+
+
 class Human implements Cloneable{
 	
 	String name;
