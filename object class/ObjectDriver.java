@@ -1,5 +1,6 @@
 // Run Status : true
 
+
 class Student
 {
 	String sName;
