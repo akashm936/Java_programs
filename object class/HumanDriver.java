@@ -3,6 +3,7 @@
 
 class Human implements Cloneable{
 	
+	
 	String name;
 	String place;
 	String gender;
