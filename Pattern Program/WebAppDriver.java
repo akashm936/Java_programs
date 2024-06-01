@@ -1,3 +1,5 @@
+//run status : true
+
 class WebApp
 {
 	String name;

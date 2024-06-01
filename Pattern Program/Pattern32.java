@@ -1,3 +1,5 @@
+//Run status :true
+
 class Pattern32
 {
 	public static void main(String[] args) {
