@@ -16,3 +16,4 @@ class Pattern41
 		}
 	}
 }
+
