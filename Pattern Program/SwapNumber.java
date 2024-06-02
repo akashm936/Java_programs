@@ -13,6 +13,7 @@ class SwapNumber
         System.out.println("Initial value \na = 15 \nb = 30 ");
         System.out.println();
         c=a;
+        
         a=b;
         b=c;
         System.out.println("After Swaping Number");
