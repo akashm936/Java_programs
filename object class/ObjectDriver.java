@@ -6,6 +6,8 @@ class Student
 	String sName;
 	String place;
 	String branch;
+
+	
 	int yop;
 
 	Student(String sName,String place,String branch,int yop)
