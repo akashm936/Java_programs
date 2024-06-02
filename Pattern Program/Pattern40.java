@@ -12,6 +12,9 @@ class Pattern40
 				System.out.print((j*2)+"");
 			}
 			System.out.println();
+
+
+			
 		}
 	}
 }
