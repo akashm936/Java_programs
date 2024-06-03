@@ -2,7 +2,7 @@ class Pattern80
 {
 	public static void main(String[] args) {
 		
-		int n=10; //
+		int n=5; //
 
 		int k;
 		for(int i=n;i>=1;i--)
