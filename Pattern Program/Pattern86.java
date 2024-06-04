@@ -1,3 +1,5 @@
+// Run Status : True
+
 class Pattern86
 {
    public static void main(String[] args) {
