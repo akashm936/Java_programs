@@ -9,8 +9,16 @@ class Pattern101
 		{
 			for(int j=i;j<=n;j++)
 			{
-				if
+				if(i<=j)
+				{
+					System.out.printf("%3d",x);
+					x+=2;
+				}
+				else{
+					System.out.printf(" ");//3ws
+				}
 			}
+			System.out.println();
 		}
 	}
 }
