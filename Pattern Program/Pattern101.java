@@ -9,7 +9,7 @@ class Pattern101
 
 		for(int i=n;i>=1;i--)
 		{
-			for(int j=i;j<=n;j++)
+			for(int j=1;j<=n;j++)
 			{
 				if(i<=j)
 				{
@@ -17,7 +17,7 @@ class Pattern101
 					x+=2;
 				}
 				else{
-					System.out.printf(" ");//3ws
+					System.out.printf("   ");//3ws
 				}
 			}
 			System.out.println();
