@@ -17,9 +17,8 @@ class Pattern105
 					x++;
 				}
 				else{
-					System.out.printf("   ");
+					System.out.printf("   ");  //4ws
 				}
-				
 			}
 			System.out.println();
 
