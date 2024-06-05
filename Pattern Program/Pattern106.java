@@ -16,7 +16,7 @@ class Pattern106
 					System.out.printf("%3d",k++);
 				}
 				else{
-					System.out.print("   "); //
+					System.out.print("   "); //3ws
 				}
 			}
 			System.out.println();
