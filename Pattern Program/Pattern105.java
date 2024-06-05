@@ -1,4 +1,4 @@
-
+// Run Status : true
 
 class Pattern105
 {
