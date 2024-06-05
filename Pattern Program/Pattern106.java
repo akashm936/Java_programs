@@ -17,6 +17,7 @@ class Pattern106
 					System.out.print(" "); //
 				}
 			}
+			System.out.println();
 		}
 	}
 }
