@@ -5,7 +5,22 @@ class Pattern105
 		int n = 4;
 		int x = 1;
 
-		for (int i = ; ; ) {
+		for (int i = 1;i<=n;i++) 
+		{
+			for (int j=n;j>=1;i--) 
+			{
+				if(i>=j)
+				{
+					System.out.printf("%4d",(x*x));
+					x++;
+				}
+				else{
+					System.out.printf("   ");
+				}
+				
+			}
+			System.out.println();
+
 			
 		}
 	}
