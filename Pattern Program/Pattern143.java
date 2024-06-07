@@ -1,3 +1,5 @@
+// run status : true
+
 class Pattern143
 {
 	public static void main(String[] args) {
