@@ -8,7 +8,7 @@ class Pattern112
 		{
 			for(int j= n-1;j>i;j--)
 			{
-				System.out.println(" ");
+				System.out.print(" ");
 			}
 			for (int k=0;k<=i;k++)
 			{
