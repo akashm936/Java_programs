@@ -9,11 +9,11 @@ class Pattern143
 		{
 			for(int j=n-1;j>=i;j--)
 			{
-				System.out.print(" ");
+				System.out.print("  ");
 			}
 			for(int k=z;k>=1;k--)
 			{
-				System.out.print(k);
+				System.out.print(" " + k);
 			}
 			z+=2;
 			System.out.println();
