@@ -4,9 +4,16 @@ class Array3
 		
 		int [][][] a = {{{1,2},{3}},{{4,5,6}}};
 
-		for(int [] i:a)
+
+        // System.out.println(a.length);
+        // System.out.println(a[0].length);
+        // System.out.println(a[0][0].length);
+        // System.out.println(a[0][1].length);
+
+
+		for(int [][] i:a)
 		{
-			for( int j:i)
+			for( int []j:i)
 			{
 				for(int k:j)
 				{
