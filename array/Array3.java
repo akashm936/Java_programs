@@ -1,3 +1,5 @@
+// run status : true
+
 class Array3
 {
 	public static void main(String[] args) {
