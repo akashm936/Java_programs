@@ -5,6 +5,9 @@ class Array3D_Example {
 		int [][][] nums= {{{1,2,3,4},{6,7,8,9}},{{1,2,3,4},{6,7,8,9}}};
 		
 // do while
+
+		// run status : false
+
 		// int i=0;
 		// int k=0;
 		// int j=0;
@@ -67,6 +70,8 @@ class Array3D_Example {
 //--------------------------------------------------------------------------
 // for loop
 		
+		// run status : false
+
 		// for(int i=0;i<nums.length;i++)
 		// {
 		// 	for(int j=0;j<nums[i].length;j++)
