@@ -19,7 +19,8 @@ class Array1D
 		while(i<arr.length)
 		{
 			System.out.println(arr[i]);
-			break;
+            i++;
+
 		}
 	}
 }
