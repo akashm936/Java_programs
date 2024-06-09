@@ -6,26 +6,27 @@ class Array3D_Example {
 		
 // do while
 
-		// run status : false
+		// run status : true
 
 		// int i=0;
-		// int k=0;
-		// int j=0;
 	    // do {
-	    //    System.out.println(nums[i][j][k]); 
+	    //     int j=0;
+	    //    do{
+	    //    	int k=0;
+        //         do{
+        //             System.out.print(nums[i][j][k]+" "); 
+        //             k++;
+        //         }
+	    //         while(k<nums[i][j].length);
+	    //         j++;
+	    //    }while(j<nums[i].length);
+	    //    i++;
 	    // }
-	    // while(i<nums.length)
-	    // {	
-	    // 	while(j<nums[i].length) {
-	    // 		while(k<nums[i][j].length)
-	    // 		{
-	    			
-	    // 			k++;
-	    // 		}
-	    // 		j++;
-	    // 	}
-	    //     i++;
-	    // }
+	    // while(i<nums.length);
+	    
+       
+	    
+	    	
 //----------------------------------------------------------	    
 		// run status : true
 
@@ -70,18 +71,18 @@ class Array3D_Example {
 //--------------------------------------------------------------------------
 // for loop
 		
-		// run status : false
+		//run status : true
 
-		// for(int i=0;i<nums.length;i++)
-		// {
-		// 	for(int j=0;j<nums[i].length;j++)
-		// 	{
-		// 		for(int k=0;k<nums[i][j].length;k++)
-		// 		{
-		// 			System.out.println(nums[i][j][k]);
-		// 		}
-		// 		System.out.println("...........");
-		// 	} 
-		// }
+		for(int i=0;i<nums.length;i++)
+		{
+			for(int j=0;j<nums[i].length;j++)
+			{
+				for(int k=0;k<nums[i][j].length;k++)
+				{
+					System.out.println(nums[i][j][k]);
+				}
+				System.out.println("...........");
+			} 
+		}
 	}
 }
