@@ -24,5 +24,11 @@ class Array1D
         //     i++;
 
 		// }
+
+		for (int i :arr ) {
+			System.out.println(arr[i]);
+			i++;
+			
+		}
 	}
 }
