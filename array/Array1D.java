@@ -26,7 +26,7 @@ class Array1D
 		// }
 
 		for (int i :arr ) {
-			System.out.println(arr[i]);
+			System.out.println(i);
 			i++;
 			
 		}
