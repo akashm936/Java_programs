@@ -1,4 +1,4 @@
-// run
+// run status : true
 
 class Array2D
 {
