@@ -9,18 +9,20 @@ class Array1D
 		// 	System.out.println(arr[i]);
 		// }
 
+        //do while loop
         // int i=0;
 		// do{
 		// 	System.out.println(arr[i]);
 		// }
 		// while(i<arr.length);
+        
+        // while loop
+		// int i=0;
+		// while(i<arr.length)
+		// {
+		// 	System.out.println(arr[i]);
+        //     i++;
 
-		int i=0;
-		while(i<arr.length)
-		{
-			System.out.println(arr[i]);
-            i++;
-
-		}
+		// }
 	}
 }
