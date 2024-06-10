@@ -16,7 +16,8 @@ class Array1D
 		for(int i=0;i<name.length;i++)
 		{
 			System.out.print(name[i]+" ");
-			for(int j=0;j<name.length;j++)
+			for(int j=0;j<name
+				.length;j++)
 			{
 				System.out.print(name[i][j]);
 			}
