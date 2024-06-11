@@ -13,6 +13,10 @@ class ArraysProgram
 
 	}
 
+	public void displayElement(){
+		System.out.println(Arrays.toString(arr));
+	}
+
 	public void evenNumber(){
         
 		for(int i=0;i<arr.length;i++)
@@ -70,7 +74,8 @@ class ArraysProgram
 			System.out.println("Select Option");
 			System.out.println("1. Store Element ");
 			System.out.println("2. Find Element");
-			System.out.println("3. Find even Number");
+			// System.out.println("3. Find even Number");
+			System.out.println("3. displayElement");
 			System.out.println("4. Find Odd Number");
 			System.out.println("5. Fetch Negative Number");
 			System.out.println("6. Exit");
@@ -98,7 +103,8 @@ class ArraysProgram
 				break;
 			case 3:
 			    {
-				    System.out.println("Case 3");
+			    	ap.displayElement();
+				    //System.out.println("Case 3");
 
 			    }
 			    break;
