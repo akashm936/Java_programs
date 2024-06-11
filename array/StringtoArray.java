@@ -13,7 +13,9 @@ class StringtoArray
 
 		char [] arr = stringToCharArray(sen);
 		System.out.println(Arrays.toString(arr));
-
+        
+        char [] arr1 = name.toCharArray();
+        System.out.println(Arrays.toString(arr1));
 		String word =' ';
 		for(int i=0;i<sen.length();i++)
 		{
