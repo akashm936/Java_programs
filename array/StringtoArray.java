@@ -16,17 +16,16 @@ class StringtoArray
         
         char [] arr1 = name.toCharArray();
         System.out.println(Arrays.toString(arr1));
-		String word =' ';
+		
+	}
+	public static char[] stringToCharArray(String sen)
+	{
+		char [] arr = new char[name.length()];
+		//A K A S H
 		for(int i=0;i<sen.length();i++)
 		{
-			char ch = sen.charAt(i);
-			if(ch==' '){
-				System.out.println(i);
-				System.out.println();
-				break;
-			}
-			word += ch;
+			arr[i] = (sen.charAt(i));
 		}
-		System.out.println(word);
+		return arr;
 	}
 }
