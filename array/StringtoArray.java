@@ -14,13 +14,13 @@ class StringtoArray
 		char [] arr = stringToCharArray(sen);
 		System.out.println(Arrays.toString(arr));
         
-        char [] arr1 = name.toCharArray();
+        char [] arr1 = sen.toCharArray();
         System.out.println(Arrays.toString(arr1));
 		
 	}
 	public static char[] stringToCharArray(String sen)
 	{
-		char [] arr = new char[name.length()];
+		char [] arr = new char[sen.length()];
 		//A K A S H
 		for(int i=0;i<sen.length();i++)
 		{
