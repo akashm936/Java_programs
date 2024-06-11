@@ -1,3 +1,5 @@
+// run status :
+
 import java.util.*;
 
 class StringtoArray
