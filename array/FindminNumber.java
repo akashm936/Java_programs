@@ -1,3 +1,5 @@
+// run status : 
+
 import java.util.*;
 class FindminNumber
 {
@@ -9,6 +11,7 @@ class FindminNumber
 	if(arr[i]<j)
 	{
 		j=arr[i];
+		// remaining
 	}	
 
 	}
