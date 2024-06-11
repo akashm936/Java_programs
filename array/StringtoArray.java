@@ -18,6 +18,8 @@ class StringtoArray
         System.out.println(Arrays.toString(arr1));
 		
 	}
+
+	// new method is created 
 	public static char[] stringToCharArray(String sen)
 	{
 		char [] arr = new char[sen.length()];
