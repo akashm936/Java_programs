@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 class NewArray
 {
@@ -29,7 +30,7 @@ class NewArray
 		}
 		//new Question wajp  to merge two arrays into one single arrays //
 
-		int evenArray[] = new Int[evenCount];
+		int evenArray[] = new int[evenCount];
 		int oddArray[] = new int[oddCount];
 
 		int itt1=0;
