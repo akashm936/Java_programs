@@ -21,7 +21,9 @@ class SumProd
 			arr[i]=sc.nextInt();
 			sum=sum+arr[i];
 			prod=prod*arr[i];
-		]
+		
 		}
+		System.out.println("Sum : "+sum);
+		System.out.println("Product : "+prod);
 	}
 }
