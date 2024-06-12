@@ -14,6 +14,14 @@ class SumProd
 
 		int sum=0;
 		int prod=1;
-		//remaining
+		//inserting element dynamically 
+
+		for(int i=0;i<size;i++)
+		{
+			arr[i]=sc.nextInt();
+			sum=sum+arr[i];
+			prod=prod*arr[i];
+		]
+		}
 	}
 }
