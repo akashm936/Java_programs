@@ -27,5 +27,26 @@ class NewArray
 				oddCount++;
 			}
 		}
+		//new Question wajp  to merge two arrays into one single arrays //
+
+		int evenArray[] = new Int[evenCount];
+		int oddArray[] = new int[oddCount];
+
+		int itt1=0;
+		int itt2=0;
+
+		for(int j=0;j<size;j++)
+		{
+			if(arr[j]%2==0)
+			{
+				evenArray[itt1++]=arr[j];
+			}
+			else
+			{
+				oddArray[itt2++]=arr[j];
+			}
+		}
+		System.out.println("even Array : "+ Arrays.toString(evenArray));
+		System.out.println("Odd Array : "+ Arrays.toString(oddArray));
 	}
 }
