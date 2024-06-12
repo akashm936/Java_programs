@@ -15,11 +15,11 @@ class MergeArrays
         System.out.println("Enter the element of arrays : ");
         int []arr1 = new int[size1];
 
-        // System.out.println("Enter the size of second arrays: ");
-        // int size2 = sc.nextInt();
+        System.out.println("Enter the size of second arrays: ");
+        int size2 = sc.nextInt();
 
-        // System.out.println("Enter the element of second Arrays: ");
-        // int []arr2= new int[size2];
+        System.out.println("Enter the element of second Arrays: ");
+        int []arr2= new int[size2];
          
         //merge arrays program is remaining
        
