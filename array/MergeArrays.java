@@ -18,6 +18,7 @@ class MergeArrays
 
         // System.out.println("Enter the element of second Arrays: ");
         // int []arr2= new int[size2];
-
+         
+        //merge arrays program is remaining
        
 }
