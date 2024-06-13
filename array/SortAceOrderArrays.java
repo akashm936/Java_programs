@@ -17,7 +17,8 @@ class SortAceOrderArrays
 
 //pelendrom
 //vowel count
-// 
+// dublicate element
+
 // write a java program to fetch second smallest element in the array
 //write a java program to second largest element in the array
 // write a java porgram to sort element in acending  order
