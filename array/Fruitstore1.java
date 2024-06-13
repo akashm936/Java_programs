@@ -1,3 +1,5 @@
+// run status : true
+
 import java.util.*;
 
 class Fruitstore1
@@ -80,7 +82,7 @@ class Fruitstore1
        		{
        			if(ff.fruitname==null)
        			{
-       				System.out.println("Add Fruits Frist. :(  ");
+       				System.out.println("Add Fruits First. :(  ");
        			}
        			else{
        				ff.displayFruit();
@@ -101,6 +103,8 @@ class Fruitstore1
        		break;
        	    case 4:
        	    {
+       	    	System.out.println("Store are Closed!!!");
+       	    	System.out.println("---------------------------------");
        	    	exit=false;
 
        	    }

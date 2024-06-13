@@ -1,3 +1,5 @@
+// run status : true
+
 import java.util.*;
 // create switch statement in this program
 class FruitStore

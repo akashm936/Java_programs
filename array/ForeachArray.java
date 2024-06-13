@@ -1,3 +1,5 @@
+// run status : true
+
 import java.util.*;
 
 class ForeachArray
@@ -10,8 +12,8 @@ class ForeachArray
 		for (int i : arr) {
 			if(i%2==0)
 				count++;
-			else
-				count++;
+			//else
+				//count++;
 		}
 
 		int [] evenNumbers = new int[count];
@@ -22,21 +24,11 @@ class ForeachArray
 			if(i%2==0)
 				evenNumbers[indx++]=i;
 			else
-			oddNumbers[indx++]=i;
+			oddNumbers[indx]=i;
+
 		}
-		System.out.println(Arrays.toString(evenNumbers));
-		System.out.println(Arrays.toString(oddNumbers));
+		System.out.println("The Even Number is "+Arrays.toString(evenNumbers));
+		System.out.println("The odd Number is "+Arrays.toString(oddNumbers));
         
-
-
-        //---------------------------------------------------------
-        // int count=0;
-        // for(int i :arr)
-        // {
-        	
-        // }
-
-
-
 	}
 }
