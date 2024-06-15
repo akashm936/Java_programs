@@ -62,3 +62,4 @@ class MergeArrays
 
 // write a java prgram to check if the array is pelindrome which work for both;
 //create a array of char datatype
+//reverse the array and store it in another array it an reverse array
