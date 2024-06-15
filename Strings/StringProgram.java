@@ -4,7 +4,9 @@ class StringProgram
 {
 	public static void main(String[] args) {
 		//find distinct characters from a String
-		String str = "abhahfjancb";
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a String Name : ");
+		String str = sc.nextLine();
 		System.out.println(str);
 		int [] arr = new int[str.length()];
 		
