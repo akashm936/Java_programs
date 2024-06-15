@@ -1,3 +1,7 @@
+// run status : true
+
+// to find a palindrome number
+
 import java.util.Scanner;
 import java.util.Arrays;
 
@@ -12,12 +16,26 @@ class PalindromeArray
 		System.out.println("Enter a Arrays element: ");
 		char [] arr=new char[size];
 
-		for (int i=0;i<=size;i++)
+		for (int i=0;i<size;i++)
 		{
 			arr[i]=sc.next().charAt(0);
 		}
-		//remaning
 
-		char []
+		char [] reversedArray = new char[size];
+
+		int temp = 0;
+		for(int i=arr.length-1;i>=0;i--)
+		{
+			reversedArray[temp]=arr[i];
+			temp++;
+		} 
+
+		if(Arrays.equals(arr,reversedArray))
+		{
+			System.out.println("It is Palindrome");
+		}
+		else{
+			System.out.println("Not Palindrome");
+		}
 	}
 }
