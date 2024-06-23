@@ -1,15 +1,17 @@
-import java.util.Scanner;
+// run status :  true
+
+//import java.util.Scanner;
 
 class ArmstrongNumber
 {
 	public static void main(String []args)
 	{
 
-		Scanner sc = new Scanner(System.in);
+		//Scanner sc = new Scanner(System.in);
 
-		System.out.println("Enter a Number : ");
-		int num = sc.nextInt();
-		//int num =1634;
+		//System.out.println("Enter a Number : ");
+		//int num = sc.nextInt();
+		int num =1634;
 		int length =0;
 		int dup =num;
 		int dup1= num;
