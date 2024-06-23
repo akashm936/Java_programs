@@ -23,6 +23,7 @@ class AutoMorphicNumber
 			num/=10;
 		}
 		int id=sqr%div;
+		//5667%100 = 76
 
 		System.out.println((dup==id)?"AutoMorphicNumber":"Not a AutoMorphicNumber");
 	}
