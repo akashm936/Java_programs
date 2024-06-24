@@ -1,5 +1,6 @@
 // run status :  true
 
+
 //import java.util.Scanner;
 
 class ArmstrongNumber
