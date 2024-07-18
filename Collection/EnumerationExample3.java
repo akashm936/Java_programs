@@ -14,6 +14,8 @@ class EnumerationExample3
 			System.out.println(enumeration.nextElement());
 		}
 
+		
+
 
 	}
 }
