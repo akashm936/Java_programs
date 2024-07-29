@@ -18,6 +18,7 @@ public class RestaurantDriver {
 			System.out.println("5. Exit ");
 
 			System.out.println();
+			
 			System.out.println("Enter an Option ");
 			int option = sc.nextInt();
 			switch (option) {
